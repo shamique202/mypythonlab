@@ -3,10 +3,11 @@
 # Write the code that:
 # 1. Prompts the user to enter a letter in the alphabet:
 #      Please enter a letter from the alphabet (a-z or A-Z): 
-letter = input('insert a letter in the alphabet a-z or A-Z').lower()
+letter = input('please insert a letter in the alphabet a-z or A-Z').lower()
+print(f'The user added a {letter}')
 
 # 2. Write the code that determines whether the letter entered is a vowel
-if letter in ["a","e","i","o","u"]:
+if letter in ["a","e","i","o","u", "A","E", "I", "O", "U"]:
     print(f'{letter} is a vowel')
 
 # 3. Print one of following messages (substituting the letter for x):
