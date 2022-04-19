@@ -21,4 +21,4 @@ def fib(n):
         else: 
             return fib(n-2) + fib(n-1)
             for num in range(1,50):
-                print("term:" + str(num) + "/number" + str(fib(num)))
+                print("term:" + str(num) + "/number:" + str(fib(num)))
